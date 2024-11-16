@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: 20px 0;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+
+header img{
+    width: 140px;
+}
+
+.banner{
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    padding: 110px 0 60px 0;
+    gap: 60px;
+    
+}
+
+.banner h1{
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.banner p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.banner button{
+    background-color: #9bf00b;
+    color: #054b16;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    padding: 20px 50px;
+    
+}
+
+[data-contexto="bg-dark"]{
+    background: #23074d;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+[data-contexto="bg-blue"]{
+    background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+
+}
+
+[data-contexto="bg-red"]{
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+
+.menu{
+    padding: 60px 0;
+   
+}
+
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu button{
+    font-size: 18px;
+    padding: 12px 30px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.menu button:active{
+    background-color: white;
+    color: #054b16;
+}
+
+button.active{
+    background-color: white;
+    color: #054b16;
+}
+
+.photo{
+    width: 400px;
+}
+
+.photo, .title{
+    width: 50%;
+}
+
+
+.img-banner{
+    width: 384px;
+}
